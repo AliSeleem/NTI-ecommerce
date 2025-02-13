@@ -25,7 +25,7 @@ app.use(express.static("uploads"));
 app.use(express.json({ limit: "10kb" }));
 app.use(
 	cors({
-		origin: ["http://localhost:4200", "http://localhost:54499"],
+		origin: ["http://localhost:4200", "http://localhost:54499", "https://el-beqalah-front.vercel.app"],
 		methods: ["POST", "GET", "PUT", "DELETE"],
 		allowedHeaders: ["Content-Type", "Authorization"],
 		credentials: true,
