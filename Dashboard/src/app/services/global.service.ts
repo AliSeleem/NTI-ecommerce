@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class GlobalService {
-  hostName: string = 'nti-ecommerce-production.up.railway.app';
+  hostName: string = 'https://nti-ecommerce-production.up.railway.app';
   authRoute: string = '/api/v1/auth';
   categoriesRoute: string = '/api/v1/categories';
   subcategoriesRoute: string = '/api/v1/subcategories';
