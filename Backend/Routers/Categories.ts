@@ -16,6 +16,7 @@ import {
 } from "../utils/validation/categoriesValidator";
 import SubCategoriesRouter from "./SubCategories";
 import { allowedTo, checkActive, protectRoutes } from "../Controllers/auth";
+
 const CategoriesRouter = express.Router();
 
 CategoriesRouter.use("/:categoryId/subcategories", SubCategoriesRouter);

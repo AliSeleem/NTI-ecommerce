@@ -18,7 +18,7 @@ const OrderSchema: Schema = new Schema<Order>(
 		isPaid: { type: Boolean, default: false },
 		taxPrice: { type: Number, default: 0 },
 		address: { type: String, required: true },
-		user: { type: Schema.Types.ObjectId, red: "users" },
+		user: { type: Schema.Types.ObjectId, red: "users" },	
 	},
 	{ timestamps: true }
 );

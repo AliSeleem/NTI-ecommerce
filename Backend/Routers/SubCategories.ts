@@ -15,6 +15,7 @@ import {
 	updateSubCategoryValidator,
 } from "../utils/validation/subcategoriesValidator";
 import { allowedTo, checkActive, protectRoutes } from "../Controllers/auth";
+
 const SubCategoriesRouter = express.Router({ mergeParams: true });
 
 SubCategoriesRouter.route("/")
